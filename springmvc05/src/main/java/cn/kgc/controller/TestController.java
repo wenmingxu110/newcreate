@@ -20,10 +20,6 @@ public class TestController {
         }
 //     @RequestMapping("/add")
 //     public String add(Account account){
-//
-//
-//
-//
 //        accountService.save(account);
 //        return "redirect:findAll";
 //        }
