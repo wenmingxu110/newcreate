@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <script src="../js/angular.min.js"></script>
+    <script>
+        var app=angular.module('myApp',[]);
+        app.controller('myController',function ($scope) {
+            $scope.list=[333,666,999];
+        })
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myController">
+<table>
+    <tr ng-repeat="yuan in list">
+        <td>{{yuan}}</td>
+    </tr>
+</table>
+</body>
+</html>
