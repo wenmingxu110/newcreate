@@ -14,6 +14,7 @@
     <!--注解驱动-->
     <mvc:annotation-driven></mvc:annotation-driven>
     <!--静态资源放行-->
+
 <!--    <mvc:resources mapping="/js/**" location="/js/"></mvc:resources>-->
     <mvc:default-servlet-handler></mvc:default-servlet-handler>
 </beans>
