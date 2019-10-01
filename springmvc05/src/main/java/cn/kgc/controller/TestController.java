@@ -15,6 +15,7 @@ public class TestController {
         modelAndView.addObject("alllist",str);
         modelAndView.setViewName("show");
         System.out.println("123");
+
         return modelAndView;
         }
 //     @RequestMapping("/add")
